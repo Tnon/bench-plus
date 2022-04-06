@@ -1,0 +1,11 @@
+{
+  "name": "@bench-plus/theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

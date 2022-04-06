@@ -1,0 +1,10 @@
+{
+  "name": "@bench-plus/components",
+  "version": "1.0.0",
+  "description": "组件库的独立包",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

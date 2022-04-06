@@ -1,0 +1,37 @@
+{
+  "name": "bench-plus",
+  "version": "1.0.0",
+  "description": "bench-plus组件库",
+  "scripts": {
+    "play": "pnpm -C play dev",
+    "build": "gulp -f build/gulpfile.ts"
+  },
+  "keywords": [
+    "bench",
+    "vue3",
+    "ui"
+  ],
+  "author": "Delevin.TnT",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-clean-css": "^4.3.0",
+    "@types/gulp-sass": "^5.0.0",
+    "@types/sass": "^1.43.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9",
+    "sucrase": "^3.20.3",
+    "typescript": "^4.6.3",
+    "vue": "^3.2.31"
+  },
+  "dependencies": {
+    "@bench-plus/components": "workspace:^1.0.0",
+    "@bench-plus/theme": "workspace:^1.0.0",
+    "@bench-plus/utils": "workspace:^1.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
+}
