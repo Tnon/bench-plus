@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "组件库的独立包",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.70.1",
+    "rollup-plugin-multi-input": "^1.3.1"
+  }
 }

@@ -7,5 +7,6 @@
 <template>
   <div>
     <BIcon :size="22" color="red" class="b-icon-fanghu"></BIcon>
+    <BButton>sss</BButton>
   </div>
 </template>

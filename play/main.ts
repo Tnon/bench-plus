@@ -7,7 +7,8 @@
 import { createApp } from "vue";
 import App from "./app.vue";
 import BIcon from "@bench-plus/components/icon";
+import BButton from "@bench-plus/components/button";
 const app = createApp(App);
 import "@bench-plus/theme/src/index.scss";
-app.use(BIcon);
+app.use(BIcon).use(BButton);
 app.mount("#app");
